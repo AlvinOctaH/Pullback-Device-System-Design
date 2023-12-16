@@ -5,17 +5,17 @@
    - GND pin is connected to the GND pin on Arduino.
    - VRx pin (X axis) is connected to the analog A0 pin on Arduino.
    - VRy pin (Y axis) is connected to the analog A1 pin on Arduino.
-   - SW pin (switch) is connected to the digital 4 pin on Arduino.
+   - SW pin (switch) is connected to the digital 2 pin on Arduino.
 
 2. SSD1306 OLED Display 1.3 Inch:
    - Vin pin is connected to the 5V pin on Arduino.
    - GND pin is connected to the GND pin on Arduino.
-   - SDA pin is connected to the analog A2 pin on Arduino.
-   - SCL pin is connected to the analog A3 pin on Arduino.
+   - SDA pin is connected to the analog A4 pin on Arduino.
+   - SCL pin is connected to the analog A5 pin on Arduino.
 
 3. DRV8825:
-   - DIR pin (Direction) is connected to the digital 2 pin on Arduino.
-   - STEP pin is connected to the digital 3 pin on Arduino.
+   - DIR pin (Direction) is connected to the digital 3 pin on Arduino.
+   - STEP pin is connected to the digital 4 pin on Arduino.
    - VMOT pin is connected to the Input pin 7805 VOLTAGE REGULATOR and Capacitor 100µF.
    - GND MOT pin is connected to the GND pin 7805 VOLTAGE REGULATOR and Capacitor 100µF.
    - GND Logic pin is connected to the GND pin on Arduino and Capacitor 10µF.
